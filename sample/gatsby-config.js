@@ -33,6 +33,11 @@ module.exports = {
             resolve: () =>
               fromJson(path.resolve(__dirname, './data/swagger-petstore.json')),
           },
+          {
+            name: 'Looker30',
+            resolve: () =>
+              fromJson(path.resolve(__dirname, './data/swagger-looker-3.0.json')),
+          },
         ],
       },
     },
